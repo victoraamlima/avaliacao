@@ -1,0 +1,219 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(180deg, rgba(36, 44, 54, 1) 0%, rgba(24, 29, 36, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 2.5rem;
+    width: 40rem;
+}
+
+.star {
+    background-color: hsla(216, 12%, 54%, 0.2);
+    height: 5rem;
+    width: 5rem;
+    padding: 1.5rem;
+    border-radius: 5rem;
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.card p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+/* .card ul {
+    display: flex;
+} */
+
+/* .card ul li {
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    height: 1rem;
+    width: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} */
+
+/* .card ul li:first-child {
+    margin-left: 0;
+} */
+
+/* .card ul li:hover {
+    background-color: hsl(216, 12%, 54%);
+} */
+
+/* .card ul .selected {
+    background-color: hsl(25, 97%, 53%);
+} */
+
+.card1 .teste {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.card1 .teste label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 .teste label input {
+    all: unset;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    padding: 2.1rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    height: 1rem;
+    width: 1rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card1 .teste label:first-child input{
+    margin-left: 0;
+}
+
+.card1 .teste label:first-child input + span{
+    margin-right: 1rem;
+}
+
+.card1 .teste label input:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.card1 .teste label input:checked {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.card1 .teste label span {
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card1 .ops{
+    align-self: center;
+    background-color: hsl(20, 2%, 25%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.card button {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    border: none;
+    border-radius: 4rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 15px;
+
+}
+
+.card .hover:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.card1 .inactive {
+    background-color: hsla(25, 100%, 68%, 0.5);
+}
+
+.card2 {
+    align-items: center;
+}
+
+.card2 .cellphone {
+    width: 162px;
+    height: 108px;
+    margin-top: 2rem;
+}
+
+.card2 #your-score-selected {
+    margin-top: 3rem;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.2);
+    padding: 0.5rem;
+    border-radius: 3rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card2 h2 {
+    font-size: 21px;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.card2 p {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* .card1 .teste label {
+    display: flex;
+} */
+
+/* .card1 .teste label:first-child .custom-radio {
+    margin-left: 0;
+} */
+
+/* .card .teste label .custom-radio:hover {
+    background-color: hsl(216, 12%, 54%);
+} */
+
+/* .card1 .teste input[type='radio']:checked .custom-radio {
+    background-color: hsl(25, 97%, 53%);
+} */
+
+
+
+@media(max-width: 600px){
+    html{
+        font-size: 7.5px;
+    }
+}
