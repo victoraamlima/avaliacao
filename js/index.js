@@ -54,7 +54,7 @@ for (let i = 0; i < 5; i++) {
     
 }
 
-scores[4].addEventListener("click", function () {
+scores[4].addEventListener("change", function () {
     submitSelected.classList.add("hover")
     submitSelected.classList.remove("inactive")
 })
