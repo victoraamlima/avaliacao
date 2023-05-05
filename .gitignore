@@ -1,2 +1,3 @@
 .prettierignore
 .vscode/settings.json
+/design
