@@ -1,86 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Avaliação</title>
 
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="js/index.js" defer></script>
+  </head>
 
-  <script src="js/index.js" defer></script>
-</head>
+  <body>
+    <div class="card rating">
+      <img class="star" src="images/icon-star.svg" alt="" />
 
-<body>
+      <h2>How did we do?</h2>
 
-  <div class="card card1">
-    <img class="star" src="images/icon-star.svg" alt="">
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
 
-    <h2>Oi minha LYN!</h2>
+      <form class="grades">
+        <label for="1" class="grade">
+          <input type="radio" name="score" id="1" />
+          <span>1</span>
+        </label>
 
-    <p>Eu sei que você me ama e tudo mais, mas se você fosse dar uma nota de 1 a 5, para o quanto você me ama, qual seria? </p>
+        <label for="2" class="grade">
+          <input type="radio" name="score" id="2" />
+          <span>2</span>
+        </label>
 
+        <label for="3" class="grade">
+          <input type="radio" name="score" id="3" />
+          <span>3</span>
+        </label>
 
-    <!-- <ul class="score">
-      <li class="1">1</li>
-      <li class="2">2</li>
-      <li class="3">3</li>
-      <li class="4">4</li>
-      <li class="5">5</li>
-    </ul> -->
+        <label for="4" class="grade">
+          <input type="radio" name="score" id="4" />
+          <span>4</span>
+        </label>
 
-    <div class="teste">
-      <label for="1">
-        <input type="radio" name="score" id="1">
-        <span>1</span>
-      </label>
+        <label for="5" class="grade">
+          <input type="radio" name="score" id="5" />
+          <span>5</span>
+        </label>
+      </form>
 
-      <label for="2">
-        <input type="radio" name="score" id="2">
-        <span>2</span>
-      </label>
-
-      <label for="3">
-        <input type="radio" name="score" id="3">
-        <span>3</span>
-      </label>
-
-      <label for="4">
-        <input type="radio" name="score" id="4">
-        <span>4</span>
-      </label>
-
-      <label for="5">
-        <input type="radio" name="score" id="5">
-        <span>5</span>
-      </label>
+      <button id="button" class="button inactive">SUBMIT</button>
     </div>
 
-    <div class="ops hide">Ops! Tente novamente</div>
+    <div class="card thank hide">
+      <img class="cellphone" src="images/illustration-thank-you.svg" alt="" />
 
-    <button id="button" class="button inactive ">ENVIAR</button>
-  </div>
+      <div id="your-selected-score"></div>
 
-  <div class="card card2 hide">
-    <img class="cellphone" src="images/illustration-thank-you.svg" alt="">
+      <h2>Thank you!</h2>
 
-    <div id="your-score-selected"></div>
-
-    <h2>Eu sabia que você me amava muito, mas não esperava que fosse tanto!</h2>
-
-    <p>Eu não ia te falar , mas isso daqui foi um teste, se você não desse nota 5, mocinha a senhorita estaria encrencada!
-    </p>
-
-  </div>
-
-</body>
-
+      <p>
+        We appreciate you taking the time to give a rating. lt you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </body>
 </html>
